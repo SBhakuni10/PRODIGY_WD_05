@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather app</title>
+    <link rel="stylesheet" href="weather.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container1">
+    <h1>Weather app</h1>
+    <input class="input" type="text" placeholder="*Select your location*">
+    <button class="my-button">Search</button>
+
+    <div class="image-not-found">
+        <h1>Sorry,location not found!!</h1>
+        <img  class="notFound-img"src="weatherAppimages\notFound.jfif" alt="404 error">
+    </div>
+   
+    
+    <div class="weather-data">
+        <div class="weather-img">
+            <img class="sunny"src="weatherAppimages/suunyimg.jfif" >
+        </div>
+        <p class="temp">0<sup>°C</sup></p>
+        <p class="weather-description">Sunny day</p>
+   
+    <div class="weather-details">
+        <div class="humidity">
+            <i class="ri-drop-fill icon"></i>
+            <span><p class="text">45%</p>
+            <p>Humidity</p></span></div>
+        <div class="wind-speed">
+            <i class="ri-windy-line icon"></i>
+            <span><p class="speed">12km/hr</p>
+            <p>wind speed</p></span>
+        </div>
+    </div>
+    </div>    
+</div>
+ <script src="weatherApp.js"></script>
+
+    
+</body>
+</html>
